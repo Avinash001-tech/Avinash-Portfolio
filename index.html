@@ -16,19 +16,40 @@
     <p>Aspiring Web Developer | AI&DS Student | Curious Mind</p>
   </header>
 
-  <!-- About Me -->
-  <section class="about" data-aos="fade-up">
-  <img src="2211814.jpg" alt="Profile" />
+ <!-- About Me -->
+<section class="about" data-aos="fade-up">
+  <div class="about-container">
+    <img src="2211814.jpg" alt="Profile" />
 
     <div class="about-text">
       <h2>About Me</h2>
-      <p>I’m currently a Final Year AI&DS student in Pranveer Singh Institute of Technology , passionate about learning web development.  I'm exploring the tech world one line of code at a time!</p>
+      <p>
+        I’m currently a Final Year AI&DS student in Pranveer Singh Institute of Technology, 
+        passionate about learning web development. I'm exploring the tech world one line of code at a time!
+      </p>
     </div>
-  </section>
-   
-  
-  
+  </div>
+</section>
 
+<style>
+  .about-container {
+    display: flex;
+    align-items: center;   /* vertically center image + text */
+    gap: 20px;             /* space between image and text */
+  }
+
+  .about-container img {
+    width: 250px;          /* adjust size */
+    height: auto;
+    border-radius: 12px;   /* rounded corners */
+  }
+
+  .about-text {
+    max-width: 600px;      /* control text width */
+  }
+</style>
+
+   
   <!-- Skills -->
   <section class="skills" data-aos="fade-right">
 
@@ -38,6 +59,8 @@
       <span>CSS3</span>
       <span>JavaScript</span>
       <span>Node.js</span>
+      <span>Express.js</span>
+      <span>Mongodb</span>
       <span>Basics of Java Programming</span>
       <span>GitHub</span>
       <span>Express.js</span>
@@ -51,7 +74,7 @@
     <div class="edu-item">
       <h4>Bachelor of Engineering</h4>
       <p><strong>PSIT,Kanpur</strong></p>
-      <p>I am currently pursuing my Bachelor of Engineering with a specialization in Full Stack Development from PSIT, Kanpur with an active CGPA of 6.3</p>
+      <p>I am currently pursuing my Bachelor of Engineering with a specialization in Full Stack Development from PSIT, Kanpur with an active CGPA of 6.7</p>
       <p>As a Computer Science and Engineering student, I have been developing a strong foundation in computer science principles, programming, algorithms, data structures, and software development.</p>
       <span>2022 - 2026</span>
     </div>
@@ -76,21 +99,49 @@
   <div class="project-card" data-aos="zoom-in">
 
     <h2>Projects</h2>
+     <div class="project-card">
+      <h3>Music Recommendation System</h3>
+      <p>Built a Music Recommendation System that suggests songs based on user preferences and listening history
+    Implemented Content-based and Collaborative Filtering algorithms for personalized recommendations
+    Designed and managed database using MySQL to store user data and music metadata</p>
+    <!-- anywhere in your portfolio HTML -->
+<p>
+  Check out my project on GitHub:
+  <a href="https://github.com/Avinash001-tech/music-recommendation-system" target="_blank" rel="noopener noreferrer">
+    Music Recommendation System
+  </a>
+</p>
+    </div>
+
     <div class="project-card">
       <h3>To-Do List</h3>
       <p>Developed a responsive to-do list web application with functionality to add, edit, delete, and mark tasks as complete..</p>
+      Check out my project on GitHub:
+  <a href="https://github.com/Avinash001-tech/To-do-List" target="_blank" rel="noopener noreferrer">
+    To-Do List Project
+    </a>
     </div>
     <div class="project-card">
       <h3>💻 Portfolio Website</h3>
       <p>This very website! Designed using HTML, CSS, and light animations to reflect my personality and skills.</p>
+      
     </div>
+    <div class="project-card">
+  <h3>TicTacToe Game</h3>
+  <p>Created a classic TicTacToe game using HTML, CSS, and JavaScript with interactive UI and two-player functionality.</p>
+  Check out my project on GitHub:
+  <a href="https://github.com/Avinash001-tech/tictactoegame" target="_blank" rel="noopener noreferrer">
+    TicTacToe Game Project
+  </a>
+</div>
+
   </section>
 
 
  <!-- Resume -->
   <section class="resume" data-aos="flip-up" style="text-align: center; padding: 2rem;">
   <h2>Download My Resume</h2>
-  <a href="avinash resume.pdf" download style="
+  <a href="Avinash Resume.pdf" download style="
     display: inline-block;
     margin-top: 1rem;
     padding: 0.8rem 1.5rem;
